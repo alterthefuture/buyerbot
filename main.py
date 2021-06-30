@@ -73,5 +73,5 @@ async def redeem(ctx,catagory=None):
             await ctx.send(embed=embed)
 
 
-client.run("ODM4Mjk0MzI4NTMwNDM2MDk3.YI5Abg.Mg517QSAi3jqiHU7dr6jIiA9ip4")
+client.run("")
     

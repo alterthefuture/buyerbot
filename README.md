@@ -1,5 +1,5 @@
 # buyerbot
-buyerbot - made by Luxa#1350
+buyerbot - made by CatNinja#0001
 
 Simple buyer bot where you can buy stuff and redeem keys. Not the best but it's a good starting point for someone.
 

@@ -30,7 +30,7 @@ async def buy(ctx,catagory=None):
     if catagory == None:
         embed=discord.Embed(title="Buy List",description="Below are available items to buy. Use `!buy [item]` to make a purchase.")
         embed.add_field(name="Test",value="Test Item.")
-        embed.set_footer(text="Made by CatNinja#0001")
+        embed.set_footer(text="Made by alter#6000")
         await ctx.send(embed=embed)
     elif catagory == "Test" or catagory == "test":
         try:
@@ -43,23 +43,23 @@ async def buy(ctx,catagory=None):
 
             embed=discord.Embed(title="Item Bought!",description="Successfully bought item: `Test`",color=discord.Colour.green())
             embed.add_field(name="Redeem Key",value=key)
-            embed.set_footer(text="Made by CatNinja#0001")
+            embed.set_footer(text="Made by alter#6000")
             await ctx.send(embed=embed)
         except:
             embed=discord.Embed(title="Error!",description="Error has occured while buying item: `Test`",color=discord.Colour.red())
-            embed.set_footer(text="Made by CatNinja#0001")
+            embed.set_footer(text="Made by alter#6000")
             await ctx.send(embed=embed)
 
 @client.command()
 async def redeem(ctx,catagory=None):
     if catagory == None:
         embed=discord.Embed(title="Redeem a key",description="To redeem a key type `!redeem [key]` if your key does not work it's invalid.")
-        embed.set_footer(text="Made by CatNinja#0001")
+        embed.set_footer(text="Made by alter#6000")
         await ctx.send(embed=embed)
     else:
         if catagory in client.available_keys:
             embed=discord.Embed(title="Item Redeemed!",description="Successfully redeemed item: `Test`",color=discord.Colour.green())
-            embed.set_footer(text="Made by CatNinja#0001")
+            embed.set_footer(text="Made by alter#6000")
             await ctx.send(embed=embed)
 
             client.available_keys.remove(catagory)
@@ -69,7 +69,7 @@ async def redeem(ctx,catagory=None):
 
         else:
             embed=discord.Embed(title="Invalid Key!",description="This key is invalid or has already been redeemed.",color=discord.Colour.red())
-            embed.set_footer(text="Made by CatNinja#0001")
+            embed.set_footer(text="Made by alter#6000")
             await ctx.send(embed=embed)
 
 

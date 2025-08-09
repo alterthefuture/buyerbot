@@ -1,5 +1,5 @@
 # buyerbot
-buyerbot - made by ritz#8888
+buyerbot - made by playedyabtch
 
 Simple buyer bot where you can buy stuff and redeem keys. Not the best but it's a good starting point for someone.
 
